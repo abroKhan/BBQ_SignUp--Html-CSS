@@ -66,11 +66,13 @@ strong {
    ================= */
 
 .intro {
+    min-height: 50vh;
     background-image: url(./images/dark-ribs.jpg);
     background-size: cover;
     background-position: center;
     background-color: #404040;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     padding: 0 .5em 2em;
 }
@@ -82,6 +84,18 @@ strong {
 
 .main-content {
     padding: 2em 1em;
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.container-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
 }
 
 
@@ -114,5 +128,9 @@ strong {
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .container-intro {
+        height: 100%;
     }
 }
