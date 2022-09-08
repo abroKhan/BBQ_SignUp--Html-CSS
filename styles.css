@@ -98,6 +98,19 @@ strong {
     min-height: 50vh;
 }
 
+/* =================
+   form
+   ================= */
+
+.email-collector {
+    width: 70%;
+    max-width: 300px;
+}
+
+input,
+.btn {
+    width: 100%;
+}
 
 /* =================
    media queries 
