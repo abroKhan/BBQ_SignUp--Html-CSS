@@ -131,39 +131,40 @@ input {
 
 .btn-primary {
     background: linear-gradient(to left, #ff713b, #ffa51d);
+}
 
-    /* =================
+/* =================
    media queries 
    ================= */
 
-    @media (min-width: 650px) {
-        body {
-            font-size: 1.125rem;
-            display: flex;
-        }
-
-        h1 {
-            font-size: 3.5rem;
-        }
-
-        h2,
-        h1+p {
-            font-size: 1.75rem;
-        }
-
-        .intro,
-        .main-content {
-            width: 50%;
-            min-height: 100vh;
-        }
-
-        .main-content {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-        }
-
-        .container-intro {
-            height: 100%;
-        }
+@media (min-width: 650px) {
+    body {
+        font-size: 1.125rem;
+        display: flex;
     }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2,
+    h1+p {
+        font-size: 1.75rem;
+    }
+
+    .intro,
+    .main-content {
+        width: 50%;
+        min-height: 100vh;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container-intro {
+        height: 100%;
+    }
+}
