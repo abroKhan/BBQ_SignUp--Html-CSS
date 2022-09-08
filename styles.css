@@ -86,30 +86,36 @@ strong {
     padding: 2em 1em;
 }
 
-.container {
-    max-width: 450px;
-    margin: 0 auto;
+.intro>*,
+.main-content>* {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.container-intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 50vh;
-}
 
 /* =================
-   form
+        form
    ================= */
 
 .email-collector {
-    width: 70%;
+    width: 80%;
     max-width: 300px;
 }
 
 input,
 .btn {
     width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+input {
+    font-family: inherit;
+    text-align: inherit;
+    border: 1px solid #404040;
+    padding: .25em;
+    margin-bottom: .75em;
 }
 
 /* =================
