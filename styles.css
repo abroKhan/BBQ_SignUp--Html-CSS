@@ -118,38 +118,52 @@ input {
     margin-bottom: .75em;
 }
 
-/* =================
+.btn {
+    display: inline-block;
+    padding: 1em 1.5em;
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: linear-gradient(to left, #ff713b, #ffa51d);
+
+    /* =================
    media queries 
    ================= */
 
-@media (min-width: 650px) {
-    body {
-        font-size: 1.125rem;
-        display: flex;
-    }
+    @media (min-width: 650px) {
+        body {
+            font-size: 1.125rem;
+            display: flex;
+        }
 
-    h1 {
-        font-size: 3.5rem;
-    }
+        h1 {
+            font-size: 3.5rem;
+        }
 
-    h2,
-    h1+p {
-        font-size: 1.75rem;
-    }
+        h2,
+        h1+p {
+            font-size: 1.75rem;
+        }
 
-    .intro,
-    .main-content {
-        width: 50%;
-        min-height: 100vh;
-    }
+        .intro,
+        .main-content {
+            width: 50%;
+            min-height: 100vh;
+        }
 
-    .main-content {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
 
-    .container-intro {
-        height: 100%;
+        .container-intro {
+            height: 100%;
+        }
     }
-}
