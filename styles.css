@@ -5,11 +5,11 @@
 }
 
 body {
-    margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
     color: #404040;
     text-align: center;
+    margin: 0;
 }
 
 
@@ -40,20 +40,20 @@ h2 {
 h2+p {
     font-weight: 900;
     color: #F18119;
-    margin-top: 0;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 .top-text {
+    border-top: 5px solid #F18119;
+    border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
     font-size: 0.625rem;
-    margin: 0;
-    padding-top: 2px;
     color: #F18119;
     font-weight: 900;
     text-transform: uppercase;
     order: -1;
-    border-top: 5px solid #F18119;
-    border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
+    padding-top: 2px;
+    margin: 0;
 }
 
 .fine-print {
@@ -71,15 +71,15 @@ strong {
    ================= */
 
 .intro {
+    min-height: 50vh;
     background-image: url(images/dark-ribs.jpg);
     background-size: cover;
     background-color: #404040;
     background-position: center;
-    padding: 0 .5em 2em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 50vh;
+    padding: 0 .5em 2em;
 }
 
 
@@ -119,9 +119,10 @@ input,
 input {
     font-family: inherit;
     text-align: inherit;
-    margin-bottom: .75em;
-    padding: .25em;
     border: 1px solid #404040;
+    outline: none;
+    padding: .25em;
+    margin-bottom: .75em;
     transform: scale(1);
     transition: transform 250ms;
 }
@@ -132,12 +133,12 @@ input:focus {
 
 .btn {
     display: inline-block;
-    padding: 1em 1.5em;
     font-size: 0.625rem;
     text-transform: uppercase;
     font-weight: 900;
-    letter-spacing: 1px;
     border: 0;
+    letter-spacing: 1px;
+    padding: 1em 1.5em;
     cursor: pointer;
 }
 
